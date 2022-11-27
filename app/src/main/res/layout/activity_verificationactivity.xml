@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.ProfileFragment"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:background="@color/clrprimary">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/userImage"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/docs" />
+
+        <TextView
+            android:id="@+id/adminsaveData"
+            android:background="@drawable/btn_new_bg"
+            android:textColor="@color/clrprimary"
+            android:gravity="center"
+
+            android:layout_width="240dp"
+            android:layout_height="34dp"
+
+            android:layout_centerHorizontal="true"
+            android:text="@string/UsersVerification"
+            android:layout_below="@id/userImage"
+            android:layout_marginTop="10dp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:background="@color/white">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/useroldman"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/immigration" />
+
+        <TextView
+            android:id="@+id/usersaveDatanew"
+            android:background="@drawable/btn_bg"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="36dp"
+            android:layout_centerHorizontal="true"
+            android:text="Verifers can continue"
+            android:layout_below="@id/useroldman"
+            android:layout_marginTop="10dp" />
+
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

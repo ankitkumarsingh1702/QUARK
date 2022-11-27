@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Quark</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="crypto">QuarkPay</string>
+    <string name="message">AapkiPhchan</string>
+    <string name="profile">Profile</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="UsersVerification"><ul><li><a href="https://ipfs-gateway.cloud/">Generate HashKey for your docs</a></li></ul></string>
+
+    <string name="Quark"><ul><li><a href="https://incomparable-biscochitos-5f60a0.netlify.app/">Lets Quark!!</a></li></ul></string>
+</resources>

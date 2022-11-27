@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/letspay"
+        android:title="Lets Pay"
+        android:icon="@drawable/payment"/>
+
+    <item android:id="@+id/quarkphchanpatra"
+        android:title="Aapki Phchann"
+        android:icon="@drawable/idcard"/>
+
+    <item android:id="@+id/exchangecrypto"
+        android:title="Exchange Crypto"
+        android:icon="@drawable/currencyexchange"/>
+
+    <item android:id="@+id/protectdocs"
+        android:title="Lock your privacy"
+        android:icon="@drawable/encrypted"/>
+
+    <item android:id="@+id/expertPanel"
+        android:title="Connect to Expert"
+        android:icon="@drawable/experience"/>
+
+
+
+
+</menu>
